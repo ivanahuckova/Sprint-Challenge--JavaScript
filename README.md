@@ -59,7 +59,8 @@ Edit this document to include your answers after each question. Make sure to lea
         Global/Deafult Binding - Global binding refers to how this is the global context whenever a function is invoked without any of the other rules mentioned above. If we aren't using a dot and we aren't using call(), apply(), or bind(), our this will be our global object.
 
 5.  Why do we need super() in an extended class?
-    The super() is used to access and call functions on an object's parent. When used in a constructor, the super keyword appears alone and must be used before the this keyword is used.
+
+        The super() is used to access and call functions on an object's parent. When used in a constructor, the super keyword appears alone and must be used before the this keyword is used.
 
 ### Git Set up
 
