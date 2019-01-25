@@ -28,37 +28,38 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. Describe the biggest difference between `.forEach` & `.map`.
+1.  Describe the biggest difference between `.forEach` & `.map`.
 
-_*forEach()* method doesn’t actually return anything (undefined). It simply calls a provided function on each element in your array. This callback is allowed to mutate the calling array._
+        _*forEach()* method doesn’t actually return anything (undefined). It simply calls a provided function on each element in your array. This callback is allowed to mutate the calling array._
 
-_*map()* method will also call a provided function on every element in the array. The difference is that map() utilizes return values and actually returns a new Array of the same size._
+        _*map()* method will also call a provided function on every element in the array. The difference is that map() utilizes return values and actually returns a new Array of the same size._
 
-2. What is the difference between a function and a method?
-   _Method : Method is a function when object is associated with it._
-   _Function: In JavaScript there is always a default global object. Therefore when global/window object is associated with it, it is function._
+2.  What is the difference between a function and a method?
 
-3. What is closure?
+        _Method : Method is a function when object is associated with it._
+        _Function: In JavaScript there is always a default global object. Therefore when global/window object is associated with it, it is function._
 
-_A closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function’s variables — a scope chain._
-_The closure has three scope chains:_
+3.  What is closure?
 
-- _It has access to its own scope — variables defined between its curly brackets_
-- _It has access to the outer function’s variables_
-- _It has access to the global variables_
+        _A closure is a feature in JavaScript where an inner function has access to the outer (enclosing) function’s variables — a scope chain._
+        _The closure has three scope chains:_
 
-4. Describe the four rules of the 'this' keyword.
+        - _It has access to its own scope — variables defined between its curly brackets_
+        - _It has access to the outer function’s variables_
+        - _It has access to the global variables_
 
-- _*Implicit Binding* - Implicit binding occurs when dot notation is used to invoke a function. In implicit binding, whatever is to the left of the dot becomes the context for this in the function._
+4.  Describe the four rules of the 'this' keyword.
 
-- _*Explicit Binding* - Explicit binding of this occurs when .call(), .apply(), or .bind() are used on a function.We call these explicit because you are explicitly passing in a this context to call() or apply(). _
+        - _*Implicit Binding* - Implicit binding occurs when dot notation is used to invoke a function. In implicit binding, whatever is to the left of the dot becomes the context for this in the function._
 
-- _*New Binding* - Whenever we use constructor function, this reffers to a specific instance of the object that is created and returned by the constructor function._
+        - _*Explicit Binding* - Explicit binding of this occurs when .call(), .apply(), or .bind() are used on a function.We call these explicit because you are explicitly passing in a this context to call() or apply(). _
 
-- _*Global/Deafult Binding* - Global binding refers to how this is the global context whenever a function is invoked without any of the other rules mentioned above. If we aren't using a dot and we aren't using call(), apply(), or bind(), our this will be our global object._
+        - _*New Binding* - Whenever we use constructor function, this reffers to a specific instance of the object that is created and returned by the constructor function._
 
-5. Why do we need super() in an extended class?
-   _The super() is used to access and call functions on an object's parent. When used in a constructor, the super keyword appears alone and must be used before the this keyword is used. _
+        - _*Global/Deafult Binding* - Global binding refers to how this is the global context whenever a function is invoked without any of the other rules mentioned above. If we aren't using a dot and we aren't using call(), apply(), or bind(), our this will be our global object._
+
+5.  Why do we need super() in an extended class?
+    _The super() is used to access and call functions on an object's parent. When used in a constructor, the super keyword appears alone and must be used before the this keyword is used. _
 
 ### Git Set up
 
