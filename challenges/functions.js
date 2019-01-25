@@ -38,11 +38,11 @@ consume("Mary", "Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
 /* Explanation: 
-`nestedfunction()` is a closure. Closure is a feature in JavaScript where an inner function has access to the outer function’s variables. Closure has three scope chains:
+nestedfunction() is a closure. Closure is a feature in JavaScript where an inner function has access to the outer function’s variables. Closure has three scope chains:
 1. It has access to its own scope — variables defined between its curly brackets
 2. It has access to the outer function’s variables
 3. It has access to the global variables
-Therefore `nestedfunction()` can access variable internal, as it is the outer function’s variables*/
+Therefore nestedfunction() can access variable internal, as it is the outer function’s variables*/
 
 const external = "I'm outside the function";
 
